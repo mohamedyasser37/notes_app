@@ -28,26 +28,11 @@ class ShowBottomSheet1 extends StatelessWidget {
             SizedBox(
               height: 32,
             ),
-            addButton(),
+
           ],
         ),
       ),
     );
   }
 }
-class addButton extends StatelessWidget {
-  const addButton({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.cyan,
-        borderRadius: BorderRadius.circular(16)
-      ),
-      width: MediaQuery.of(context).size.width,
-      height: 60,
-      child: Center(child: Text("Add",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),),
-    );
-  }
-}
