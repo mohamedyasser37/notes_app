@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes/views/home_view.dart';
+import 'package:notes/widgets/note_list.dart';
 
 class HomeViewBody extends StatelessWidget {
   @override
